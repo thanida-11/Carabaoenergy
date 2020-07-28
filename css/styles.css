@@ -1,0 +1,277 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: #252525;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+h1 {
+  color: #cf1b1b;
+}
+
+p {
+color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Container */
+.container-fluid-redline {
+padding: 2% 2%;
+background-color: #cf1b1b;
+}
+
+.container-fluid-redline2 {
+padding: 1%;
+background-color: #cf1b1b;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #cf1b1b;
+  color: #fff;
+}
+
+.white-section {
+}
+
+.container-fluid {
+  padding: 1%;
+  background-color: #000000;
+}
+
+/* Title Image */
+.title-image {
+width: 20%;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 5px 30px 5px 0px;
+}
+
+.navbar-brand {
+  font-family: 'Bebas Neue', cursive;
+  width: 20%;
+}
+
+.C-logo {
+  width: 26%;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.15rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-item:hover {
+   color: #cf1b1b;
+}
+
+.carousel-product {
+  padding-top: 50px;
+}
+
+
+
+/* Download bottons */
+
+.download-button {
+margin: 5% 3% 5% 0;
+text-align: left;
+}
+
+
+/* Title section */
+#title{
+background-color: #cf1b1b;
+color: #fff;
+text-align: center;
+}
+
+#title .container-fluid {
+  padding: 2% 2%;
+}
+
+/* Title Image */
+.title-image {
+width: 60%;
+transform: rotate(25deg);
+position: absolute;
+right: 30%;
+}
+
+.biggest {
+    color: #f9fd50;
+}
+
+/* Features section */
+#features {
+  position: relative;
+}
+
+.all {
+  width: 100%;
+}
+
+.4 {
+  width: 100%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #cf1b1b;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #fff;
+}
+
+
+/* Testimonials Section  */
+#testimonials {
+  background-color: #cf1b1b;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #252525;
+  padding-bottom: 3%;
+  padding-top: 3%
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+  width: 30%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.btn:hover {
+    color:  #f9fd50;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+.footer-link {
+  color: #fff;
+  padding: 40px 0 10px;
+    margin: 5px 5px;
+  font-weight: bold;
+}
+
+.footer-link:hover {
+     color: #cf1b1b;
+}
+
+.C-logo-2 {
+  width: 6%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.logo-move {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Media query */
+@media (max-width: 1028px) {
+  #move {
+    text-align: center;
+  }
+  .logo-move {
+   transform: matrix(1, 0, 0, 1, 0, 0)
+  }
+}
+
+/* body-product page */
+
+.product-banner {
+  padding-top: 20px;
+  padding-bottom: 300px;
+}
+
+.cans1 {
+  position: absolute;
+  left: 20px;
+  display: inline-block;
+}
+.cans2 {
+  position: absolute;
+  left: 250px;
+  display: inline-block;
+}
+.cans3 {
+  position: absolute;
+    right: 250px;
+  display: inline-block;
+}
+.cans4 {
+  position: absolute;
+  display: inline-block;
+}
+
+#products_wrapper {
+  text-align: center;
+}
